@@ -32,10 +32,6 @@ const mergeFilesContent = (directories, { depth = 3, useFilenames = true } = {})
       return merge(store, require(dir));
     }
 
-    if (directories.asd) {
-      throw new Error();
-    }
-
     const namespace = dirs.length > 1 && useFilenames ? ns.slice(0, -1) : ns;
     return Object.assign(store, get(recursivelyLoadDir(dir, depth), namespace));
   }, {});
