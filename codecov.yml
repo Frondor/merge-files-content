@@ -6,3 +6,9 @@ coverage:
         paths: 
           - "src"
           - "index.js"
+    patch:
+      default:
+        target: 100%
+        paths: 
+          - "src"
+          - "index.js"
