@@ -4,10 +4,10 @@
   "description": "Node.JS utility function for loading multiple files as one. Useful for project-wide configuration files",
   "main": "index.js",
   "scripts": {
-    "build": "npm run lint && npm test",
     "test": "jest",
     "lint": "eslint .",
-    "preversion": "npm run build"
+    "preversion": "npm run lint && npm ci && npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
