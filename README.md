@@ -7,7 +7,7 @@ Node.JS utility function to recursively load multiple directories and files as o
 2. [Usage](#usage)
 2. [API](#api)
 
-## Instalalation
+## Installation
 
 ```
 npm i merge-files-content
