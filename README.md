@@ -1,4 +1,5 @@
-# merge-files-content [![Build Status](https://travis-ci.com/Frondor/merge-files-content.svg?branch=master)](https://travis-ci.com/Frondor/merge-files-content)
+# merge-files-content [![Build Status](https://travis-ci.com/Frondor/merge-files-content.svg?branch=master)](https://travis-ci.com/Frondor/merge-files-content) [![codecov](https://codecov.io/gh/Frondor/merge-files-content/branch/develop/graph/badge.svg)](https://codecov.io/gh/Frondor/merge-files-content)
+
 Node.JS utility function to recursively load multiple directories and files as one. Useful for project-wide configuration files
 
 ## Table of contents
