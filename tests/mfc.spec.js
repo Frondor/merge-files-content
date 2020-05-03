@@ -1,7 +1,7 @@
 const path = require('path');
 const mfc = require('..');
 
-const MOCKS_PATH = path.resolve(__dirname, 'mocked-fs');
+const MOCKS_PATH = path.resolve('tests/mocked-fs');
 
 const resolveDirPath = (...segments) => path.resolve(MOCKS_PATH, ...segments);
 
