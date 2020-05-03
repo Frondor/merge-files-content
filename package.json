@@ -1,12 +1,12 @@
 {
   "name": "merge-files-content",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.JS utility function for loading multiple files as one. Useful for project-wide configuration files",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "preversion": "npm run lint && npm ci && npm test",
+    "preversion": "git merge master && npm run lint && npm ci && npm test",
     "postversion": "git push && git push --tags"
   },
   "repository": {
